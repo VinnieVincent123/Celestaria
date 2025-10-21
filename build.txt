@@ -1,4 +1,5 @@
-displayName = Forgotten Calamities
+displayName = Celestaria
 author = Mr. Callous
 version = 0.1
-modReferences = Luminance, Daybreak, SubworldLibrary, CollisionLib, ParticleLibrary, StructureHelper,  BossRushAPI, ModLiquidLib,
+modReferences = Luminance, Daybreak, SubworldLibrary, CollisionLib, ParticleLibrary, StructureHelper,  BossRushAPI, ModLiquidLib
+dllReference = Luminance
