@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using WeBall.Core.WorldGenC;
 
 namespace WeBall.Core.Globals
 {
@@ -22,10 +23,12 @@ namespace WeBall.Core.Globals
                 else if (Main.netMode == NetmodeID.Server)
                 {
                     Terraria.Chat.ChatHelper.BroadcastChatMessage(
-                        Terraria.Localization.NetworkText.FromLiteral("The World trembles as cosmis powers flood through it..."),
+                        Terraria.Localization.NetworkText.FromLiteral("The World trembles as cosmic powers flood through it..."),
                         new Microsoft.Xna.Framework.Color(255, 80, 100)
                     );
                 }
+
+                SunPlainsConversion.StartConversion();
 
                 Systems.SuperHardmodeOreGen.GenerateSuperOres();
 
