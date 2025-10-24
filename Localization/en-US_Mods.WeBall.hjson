@@ -1,11 +1,125 @@
 # This file will automatically update with entries for new content after a build and reload.
 
 Items: {
-	gg: {
-		DisplayName: Starlink
-		Tooltip:
-			'''
-			May this blade cut the veil of obfuscation between good and evil
-			'''
+
+	SolsticeBlade: {
+		DisplayName: Solstice Blade
+		Tooltip: ""
+	}
+
+	FallenCelestials: {
+		DisplayName: Fallen Celestials
+		Tooltip: ""
+	}
+
+	BeskarOre: {
+		DisplayName: Beskar Ore
+		Tooltip: ""
+	}
+
+	UruOre: {
+		DisplayName: Uru Ore
+		Tooltip: ""
+	}
+
+	VibraniumOre: {
+		DisplayName: Vibranium Ore
+		Tooltip: ""
+	}
+
+	BeskarPickaxe: {
+		DisplayName: Beskar Pickaxe
+		Tooltip: ""
+	}
+
+	UruPickaxe: {
+		DisplayName: Uru Pickaxe
+		Tooltip: ""
+	}
+
+	VibraniumPickaxe: {
+		DisplayName: Vibranium Pickaxe
+		Tooltip: ""
+	}
+
+	BeskarBar: {
+		DisplayName: Beskar Bar
+		Tooltip: ""
+	}
+
+	UruBar: {
+		DisplayName: Uru Bar
+		Tooltip: ""
+	}
+
+	VibraniumBar: {
+		DisplayName: Vibranium Bar
+		Tooltip: ""
+	}
+
+	UruAnvil: {
+		DisplayName: Uru Anvil
+		Tooltip: ""
+	}
+
+	BeskarForge: {
+		DisplayName: Beskar Forge
+		Tooltip: ""
+	}
+
+	InfectedGrass: {
+		DisplayName: Infected Grass
+		Tooltip: ""
+	}
+
+	InfectedSand: {
+		DisplayName: Infected Sand
+		Tooltip: ""
+	}
+
+	InfectedStone: {
+		DisplayName: Infected Stone
+		Tooltip: ""
+	}
+}
+
+Projectiles.SolsticeBeam.DisplayName: Solstice Beam
+
+Tiles: {
+	BeskarOreTile.MapEntry: Beskar Ore Tile
+	UruOreTile.MapEntry: Uru Ore Tile
+	VibraniumOreTile.MapEntry: Vibranium Ore Tile
+	BeskarBarTile.MapEntry: Beskar Bar Tile
+	UruBarTile.MapEntry: Uru Bar Tile
+	VibraniumBarTile.MapEntry: Vibranium Bar Tile
+}
+
+Biomes: {
+	InfectionBiome: {
+		DisplayName: Infection Biome
+		TownNPCDialogueName: the Infection Biome
+	}
+
+	SunPlainsBiome: {
+		DisplayName: Sun Plains Biome
+		TownNPCDialogueName: the Sun Plains Biome
+	}
+}
+
+NPCs: {
+	TurtleDemon.DisplayName: Turtle Demon
+	ShootingStarSlime.DisplayName: Shooting Star Slime
+	RadiantFirefly.DisplayName: Radiant Firefly
+	Sunbird.DisplayName: Sunbird
+}
+
+Configs: {
+	SuperHardmodeConfig: {
+		DisplayName: Super Hardmode Config
+
+		StartInSuperHardmode: {
+			Label: Start off in SuperHardmode
+			Tooltip: Start Worlds in SuperHardmode! For those insane enough. Might not be beatable!
+		}
 	}
 }
